@@ -1,0 +1,450 @@
+2026-04-19 14:28:57,012 [INFO] ============================================================
+2026-04-19 14:28:57,012 [INFO] OCR Book Reconstruction Agent – Starting
+2026-04-19 14:28:57,012 [INFO] ============================================================
+2026-04-19 14:28:57,013 [INFO] Step 1: Discovered 61 images in /home/runner/work/five-book/five-book/images
+2026-04-19 14:28:57,013 [INFO] Step 2: Detecting page numbers...
+2026-04-19 14:28:59,919 [INFO]   IMG_20260419_184335_365.jpg -> page=8 confidence=low
+2026-04-19 14:29:02,138 [INFO]   IMG_20260419_184335_473.jpg -> page=None confidence=uncertain
+2026-04-19 14:29:04,702 [INFO]   IMG_20260419_184335_488.jpg -> page=7 confidence=medium
+2026-04-19 14:29:07,375 [INFO]   IMG_20260419_184335_540.jpg -> page=2 confidence=high
+2026-04-19 14:29:10,139 [INFO]   IMG_20260419_184335_652.jpg -> page=None confidence=uncertain
+2026-04-19 14:29:12,377 [INFO]   IMG_20260419_184335_666.jpg -> page=2 confidence=high
+2026-04-19 14:29:14,900 [INFO]   IMG_20260419_184335_668.jpg -> page=2 confidence=low
+2026-04-19 14:29:17,077 [INFO]   IMG_20260419_184335_937.jpg -> page=1 confidence=high
+2026-04-19 14:29:19,733 [INFO]   IMG_20260419_184336_202.jpg -> page=23 confidence=medium
+2026-04-19 14:29:22,245 [INFO]   IMG_20260419_184336_253.jpg -> page=27 confidence=high
+2026-04-19 14:29:24,877 [INFO]   IMG_20260419_184341_142.jpg -> page=1 confidence=high
+2026-04-19 14:29:27,964 [INFO]   IMG_20260419_184341_211.jpg -> page=1 confidence=low
+2026-04-19 14:29:30,699 [INFO]   IMG_20260419_184341_251.jpg -> page=5 confidence=low
+2026-04-19 14:29:33,496 [INFO]   IMG_20260419_184341_395.jpg -> page=None confidence=uncertain
+2026-04-19 14:29:36,225 [INFO]   IMG_20260419_184341_642.jpg -> page=1 confidence=high
+2026-04-19 14:29:38,477 [INFO]   IMG_20260419_184341_705.jpg -> page=111 confidence=low
+2026-04-19 14:29:40,937 [INFO]   IMG_20260419_184341_741.jpg -> page=2 confidence=uncertain
+2026-04-19 14:29:44,558 [INFO]   IMG_20260419_184341_775.jpg -> page=5 confidence=low
+2026-04-19 14:29:46,995 [INFO]   IMG_20260419_184341_911.jpg -> page=2 confidence=high
+2026-04-19 14:29:50,070 [INFO]   IMG_20260419_184342_109.jpg -> page=None confidence=uncertain
+2026-04-19 14:29:53,028 [INFO]   IMG_20260419_184346_005.jpg -> page=2 confidence=low
+2026-04-19 14:29:55,598 [INFO]   IMG_20260419_184346_028.jpg -> page=2 confidence=high
+2026-04-19 14:29:58,189 [INFO]   IMG_20260419_184346_083.jpg -> page=11 confidence=low
+2026-04-19 14:30:00,764 [INFO]   IMG_20260419_184346_231.jpg -> page=1 confidence=medium
+2026-04-19 14:30:03,381 [INFO]   IMG_20260419_184346_286.jpg -> page=4 confidence=medium
+2026-04-19 14:30:06,216 [INFO]   IMG_20260419_184346_484.jpg -> page=101 confidence=low
+2026-04-19 14:30:08,690 [INFO]   IMG_20260419_184346_590.jpg -> page=7 confidence=high
+2026-04-19 14:30:11,425 [INFO]   IMG_20260419_184346_639.jpg -> page=2 confidence=medium
+2026-04-19 14:30:14,058 [INFO]   IMG_20260419_184346_742.jpg -> page=27 confidence=high
+2026-04-19 14:30:16,667 [INFO]   IMG_20260419_184346_822.jpg -> page=4 confidence=low
+2026-04-19 14:30:19,424 [INFO]   IMG_20260419_184350_718.jpg -> page=2 confidence=high
+2026-04-19 14:30:22,331 [INFO]   IMG_20260419_184350_751.jpg -> page=70 confidence=low
+2026-04-19 14:30:24,966 [INFO]   IMG_20260419_184350_766.jpg -> page=77 confidence=low
+2026-04-19 14:30:27,409 [INFO]   IMG_20260419_184350_856.jpg -> page=None confidence=uncertain
+2026-04-19 14:30:30,145 [INFO]   IMG_20260419_184350_865.jpg -> page=9 confidence=medium
+2026-04-19 14:30:32,917 [INFO]   IMG_20260419_184351_022.jpg -> page=10 confidence=medium
+2026-04-19 14:30:35,102 [INFO]   IMG_20260419_184351_031.jpg -> page=22 confidence=low
+2026-04-19 14:30:37,825 [INFO]   IMG_20260419_184351_039.jpg -> page=71 confidence=high
+2026-04-19 14:30:40,349 [INFO]   IMG_20260419_184351_285.jpg -> page=1 confidence=low
+2026-04-19 14:30:43,057 [INFO]   IMG_20260419_184351_444.jpg -> page=15 confidence=low
+2026-04-19 14:30:45,921 [INFO]   IMG_20260419_184355_801.jpg -> page=6 confidence=low
+2026-04-19 14:30:48,559 [INFO]   IMG_20260419_184355_853.jpg -> page=2 confidence=high
+2026-04-19 14:30:51,519 [INFO]   IMG_20260419_184356_125.jpg -> page=40 confidence=low
+2026-04-19 14:30:54,608 [INFO]   IMG_20260419_184356_129.jpg -> page=7 confidence=low
+2026-04-19 14:30:57,318 [INFO]   IMG_20260419_184356_137.jpg -> page=None confidence=uncertain
+2026-04-19 14:31:00,003 [INFO]   IMG_20260419_184356_178.jpg -> page=7 confidence=medium
+2026-04-19 14:31:02,374 [INFO]   IMG_20260419_184356_224.jpg -> page=None confidence=uncertain
+2026-04-19 14:31:04,762 [INFO]   IMG_20260419_184356_290.jpg -> page=5 confidence=high
+2026-04-19 14:31:07,115 [INFO]   IMG_20260419_184356_506.jpg -> page=20 confidence=uncertain
+2026-04-19 14:31:10,024 [INFO]   IMG_20260419_184356_646.jpg -> page=5 confidence=medium
+2026-04-19 14:31:12,416 [INFO]   IMG_20260419_184400_676.jpg -> page=None confidence=uncertain
+2026-04-19 14:31:14,730 [INFO]   IMG_20260419_184400_912.jpg -> page=7 confidence=medium
+2026-04-19 14:31:17,561 [INFO]   IMG_20260419_184400_929.jpg -> page=25 confidence=high
+2026-04-19 14:31:20,386 [INFO]   IMG_20260419_184401_120.jpg -> page=2 confidence=high
+2026-04-19 14:31:22,865 [INFO]   IMG_20260419_184401_133.jpg -> page=1 confidence=low
+2026-04-19 14:31:25,441 [INFO]   IMG_20260419_184401_161.jpg -> page=2 confidence=low
+2026-04-19 14:31:27,768 [INFO]   IMG_20260419_184401_382.jpg -> page=2 confidence=low
+2026-04-19 14:31:30,187 [INFO]   IMG_20260419_184401_404.jpg -> page=3 confidence=low
+2026-04-19 14:31:32,687 [INFO]   IMG_20260419_184401_480.jpg -> page=5 confidence=uncertain
+2026-04-19 14:31:34,966 [INFO]   IMG_20260419_184401_555.jpg -> page=3 confidence=low
+2026-04-19 14:31:37,826 [INFO]   IMG_20260419_184407_882.jpg -> page=5 confidence=low
+2026-04-19 14:31:37,827 [INFO] Step 3: Renaming files...
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 1 detected, using page_1_dup2.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,827 [WARNING] Duplicate page number 1 detected, using page_1_dup2.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 1 detected, using page_1_dup3.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 5 detected, using page_5_dup1.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,828 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 1 detected, using page_1_dup2.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 1 detected, using page_1_dup3.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 1 detected, using page_1_dup4.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 7 detected, using page_7_dup1.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,829 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 27 detected, using page_27_dup1.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 4 detected, using page_4_dup1.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 2 detected, using page_2_dup7.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 1 detected, using page_1_dup2.jpg
+2026-04-19 14:31:37,830 [WARNING] Duplicate page number 1 detected, using page_1_dup3.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 1 detected, using page_1_dup4.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 1 detected, using page_1_dup5.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup7.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 2 detected, using page_2_dup8.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 7 detected, using page_7_dup1.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 7 detected, using page_7_dup2.jpg
+2026-04-19 14:31:37,831 [WARNING] Duplicate page number 7 detected, using page_7_dup1.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup2.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup3.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 5 detected, using page_5_dup1.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 5 detected, using page_5_dup2.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 5 detected, using page_5_dup1.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 5 detected, using page_5_dup2.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 5 detected, using page_5_dup3.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup1.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup2.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup3.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 7 detected, using page_7_dup4.jpg
+2026-04-19 14:31:37,832 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup7.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup8.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 2 detected, using page_2_dup9.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup1.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup2.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup3.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup4.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup5.jpg
+2026-04-19 14:31:37,833 [WARNING] Duplicate page number 1 detected, using page_1_dup6.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup7.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup8.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup9.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup10.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup1.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup2.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup3.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup4.jpg
+2026-04-19 14:31:37,834 [WARNING] Duplicate page number 2 detected, using page_2_dup5.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup6.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup7.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup8.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup9.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup10.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 2 detected, using page_2_dup11.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 3 detected, using page_3_dup1.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 5 detected, using page_5_dup1.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 5 detected, using page_5_dup2.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 5 detected, using page_5_dup3.jpg
+2026-04-19 14:31:37,835 [WARNING] Duplicate page number 5 detected, using page_5_dup4.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_365.jpg -> page_8.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_473.jpg -> IMG_20260419_184335_473_unknown.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_488.jpg -> page_7.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_540.jpg -> page_2.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_652.jpg -> IMG_20260419_184335_652_unknown.jpg
+2026-04-19 14:31:37,837 [INFO] Renamed: IMG_20260419_184335_666.jpg -> page_2_dup1.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184335_668.jpg -> page_2_dup2.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184335_937.jpg -> page_1.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184336_202.jpg -> page_23.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184336_253.jpg -> page_27.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184341_142.jpg -> page_1_dup1.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184341_211.jpg -> page_1_dup2.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184341_251.jpg -> page_5.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184341_395.jpg -> IMG_20260419_184341_395_unknown.jpg
+2026-04-19 14:31:37,838 [INFO] Renamed: IMG_20260419_184341_642.jpg -> page_1_dup3.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184341_705.jpg -> page_111.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184341_741.jpg -> IMG_20260419_184341_741_unknown.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184341_775.jpg -> page_5_dup1.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184341_911.jpg -> page_2_dup3.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184342_109.jpg -> IMG_20260419_184342_109_unknown.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184346_005.jpg -> page_2_dup4.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184346_028.jpg -> page_2_dup5.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184346_083.jpg -> page_11.jpg
+2026-04-19 14:31:37,839 [INFO] Renamed: IMG_20260419_184346_231.jpg -> page_1_dup4.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_286.jpg -> page_4.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_484.jpg -> page_101.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_590.jpg -> page_7_dup1.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_639.jpg -> page_2_dup6.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_742.jpg -> page_27_dup1.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184346_822.jpg -> page_4_dup1.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184350_718.jpg -> page_2_dup7.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184350_751.jpg -> page_70.jpg
+2026-04-19 14:31:37,840 [INFO] Renamed: IMG_20260419_184350_766.jpg -> page_77.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184350_856.jpg -> IMG_20260419_184350_856_unknown.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184350_865.jpg -> page_9.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184351_022.jpg -> page_10.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184351_031.jpg -> page_22.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184351_039.jpg -> page_71.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184351_285.jpg -> page_1_dup5.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184351_444.jpg -> page_15.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184355_801.jpg -> page_6.jpg
+2026-04-19 14:31:37,841 [INFO] Renamed: IMG_20260419_184355_853.jpg -> page_2_dup8.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_125.jpg -> page_40.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_129.jpg -> page_7_dup2.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_137.jpg -> IMG_20260419_184356_137_unknown.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_178.jpg -> page_7_dup3.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_224.jpg -> IMG_20260419_184356_224_unknown.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_290.jpg -> page_5_dup2.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_506.jpg -> IMG_20260419_184356_506_unknown.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184356_646.jpg -> page_5_dup3.jpg
+2026-04-19 14:31:37,842 [INFO] Renamed: IMG_20260419_184400_676.jpg -> IMG_20260419_184400_676_unknown.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184400_912.jpg -> page_7_dup4.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184400_929.jpg -> page_25.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_120.jpg -> page_2_dup9.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_133.jpg -> page_1_dup6.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_161.jpg -> page_2_dup10.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_382.jpg -> page_2_dup11.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_404.jpg -> page_3.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_480.jpg -> IMG_20260419_184401_480_unknown.jpg
+2026-04-19 14:31:37,843 [INFO] Renamed: IMG_20260419_184401_555.jpg -> page_3_dup1.jpg
+2026-04-19 14:31:37,844 [INFO] Renamed: IMG_20260419_184407_882.jpg -> page_5_dup4.jpg
+2026-04-19 14:31:37,844 [INFO] Step 4: Determining page order...
+2026-04-19 14:31:37,844 [INFO] Step 4: Page ordering (total 61):
+2026-04-19 14:31:37,844 [INFO]     1. page_1.jpg
+2026-04-19 14:31:37,844 [INFO]     2. page_1_dup1.jpg
+2026-04-19 14:31:37,844 [INFO]     3. page_1_dup2.jpg
+2026-04-19 14:31:37,844 [INFO]     4. page_1_dup3.jpg
+2026-04-19 14:31:37,844 [INFO]     5. page_1_dup4.jpg
+2026-04-19 14:31:37,844 [INFO]     6. page_1_dup5.jpg
+2026-04-19 14:31:37,844 [INFO]     7. page_1_dup6.jpg
+2026-04-19 14:31:37,844 [INFO]     8. page_2.jpg
+2026-04-19 14:31:37,844 [INFO]     9. page_2_dup1.jpg
+2026-04-19 14:31:37,844 [INFO]    10. page_2_dup2.jpg
+2026-04-19 14:31:37,844 [INFO]    11. page_2_dup3.jpg
+2026-04-19 14:31:37,844 [INFO]    12. page_2_dup4.jpg
+2026-04-19 14:31:37,844 [INFO]    13. page_2_dup5.jpg
+2026-04-19 14:31:37,844 [INFO]    14. page_2_dup6.jpg
+2026-04-19 14:31:37,845 [INFO]    15. page_2_dup7.jpg
+2026-04-19 14:31:37,845 [INFO]    16. page_2_dup8.jpg
+2026-04-19 14:31:37,845 [INFO]    17. page_2_dup9.jpg
+2026-04-19 14:31:37,845 [INFO]    18. page_2_dup10.jpg
+2026-04-19 14:31:37,845 [INFO]    19. page_2_dup11.jpg
+2026-04-19 14:31:37,845 [INFO]    20. page_3.jpg
+2026-04-19 14:31:37,845 [INFO]    21. page_3_dup1.jpg
+2026-04-19 14:31:37,845 [INFO]    22. page_4.jpg
+2026-04-19 14:31:37,845 [INFO]    23. page_4_dup1.jpg
+2026-04-19 14:31:37,845 [INFO]    24. page_5.jpg
+2026-04-19 14:31:37,845 [INFO]    25. page_5_dup1.jpg
+2026-04-19 14:31:37,845 [INFO]    26. page_5_dup2.jpg
+2026-04-19 14:31:37,845 [INFO]    27. page_5_dup3.jpg
+2026-04-19 14:31:37,845 [INFO]    28. page_5_dup4.jpg
+2026-04-19 14:31:37,845 [INFO]    29. page_6.jpg
+2026-04-19 14:31:37,845 [INFO]    30. page_7.jpg
+2026-04-19 14:31:37,845 [INFO]    31. page_7_dup1.jpg
+2026-04-19 14:31:37,845 [INFO]    32. page_7_dup2.jpg
+2026-04-19 14:31:37,845 [INFO]    33. page_7_dup3.jpg
+2026-04-19 14:31:37,845 [INFO]    34. page_7_dup4.jpg
+2026-04-19 14:31:37,845 [INFO]    35. page_8.jpg
+2026-04-19 14:31:37,845 [INFO]    36. page_9.jpg
+2026-04-19 14:31:37,845 [INFO]    37. page_10.jpg
+2026-04-19 14:31:37,845 [INFO]    38. page_11.jpg
+2026-04-19 14:31:37,845 [INFO]    39. page_15.jpg
+2026-04-19 14:31:37,845 [INFO]    40. page_22.jpg
+2026-04-19 14:31:37,845 [INFO]    41. page_23.jpg
+2026-04-19 14:31:37,845 [INFO]    42. page_25.jpg
+2026-04-19 14:31:37,845 [INFO]    43. page_27.jpg
+2026-04-19 14:31:37,846 [INFO]    44. page_27_dup1.jpg
+2026-04-19 14:31:37,846 [INFO]    45. page_40.jpg
+2026-04-19 14:31:37,846 [INFO]    46. page_70.jpg
+2026-04-19 14:31:37,846 [INFO]    47. page_71.jpg
+2026-04-19 14:31:37,846 [INFO]    48. page_77.jpg
+2026-04-19 14:31:37,846 [INFO]    49. page_101.jpg
+2026-04-19 14:31:37,846 [INFO]    50. page_111.jpg
+2026-04-19 14:31:37,846 [INFO]    51. IMG_20260419_184335_473_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    52. IMG_20260419_184335_652_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    53. IMG_20260419_184341_395_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    54. IMG_20260419_184341_741_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    55. IMG_20260419_184342_109_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    56. IMG_20260419_184350_856_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    57. IMG_20260419_184356_137_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    58. IMG_20260419_184356_224_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    59. IMG_20260419_184356_506_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    60. IMG_20260419_184400_676_unknown.jpg
+2026-04-19 14:31:37,846 [INFO]    61. IMG_20260419_184401_480_unknown.jpg
+2026-04-19 14:31:37,846 [WARNING] Missing page numbers in sequence: [12, 13, 14, 16, 17, 18, 19, 20, 21, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+2026-04-19 14:31:37,847 [INFO] Steps 5-7: OCR extraction and reconstruction...
+2026-04-19 14:31:37,847 [INFO] Step 5: Extracting text from page_1.jpg
+2026-04-19 14:31:40,113 [INFO] Step 5: Extracting text from page_1_dup1.jpg
+2026-04-19 14:31:43,025 [INFO] Step 5: Extracting text from page_1_dup2.jpg
+2026-04-19 14:31:45,440 [INFO] Step 5: Extracting text from page_1_dup3.jpg
+2026-04-19 14:31:47,821 [INFO] Step 5: Extracting text from page_1_dup4.jpg
+2026-04-19 14:31:50,591 [INFO] Step 5: Extracting text from page_1_dup5.jpg
+2026-04-19 14:31:53,105 [INFO] Step 5: Extracting text from page_1_dup6.jpg
+2026-04-19 14:31:55,921 [INFO] Step 5: Extracting text from page_2.jpg
+2026-04-19 14:31:58,493 [INFO] Step 5: Extracting text from page_2_dup1.jpg
+2026-04-19 14:32:00,907 [INFO] Step 5: Extracting text from page_2_dup2.jpg
+2026-04-19 14:32:03,299 [INFO] Step 5: Extracting text from page_2_dup3.jpg
+2026-04-19 14:32:05,660 [INFO] Step 5: Extracting text from page_2_dup4.jpg
+2026-04-19 14:32:07,825 [INFO] Step 5: Extracting text from page_2_dup5.jpg
+2026-04-19 14:32:09,821 [INFO] Step 5: Extracting text from page_2_dup6.jpg
+2026-04-19 14:32:11,871 [INFO] Step 5: Extracting text from page_2_dup7.jpg
+2026-04-19 14:32:14,073 [INFO] Step 5: Extracting text from page_2_dup8.jpg
+2026-04-19 14:32:16,394 [INFO] Step 5: Extracting text from page_2_dup9.jpg
+2026-04-19 14:32:19,102 [INFO] Step 5: Extracting text from page_2_dup10.jpg
+2026-04-19 14:32:21,658 [INFO] Step 5: Extracting text from page_2_dup11.jpg
+2026-04-19 14:32:23,090 [INFO] Step 5: Extracting text from page_3.jpg
+2026-04-19 14:32:25,929 [INFO] Step 5: Extracting text from page_3_dup1.jpg
+2026-04-19 14:32:28,578 [INFO] Step 5: Extracting text from page_4.jpg
+2026-04-19 14:32:30,789 [INFO] Step 5: Extracting text from page_4_dup1.jpg
+2026-04-19 14:32:33,137 [INFO] Step 5: Extracting text from page_5.jpg
+2026-04-19 14:32:36,217 [INFO] Step 5: Extracting text from page_5_dup1.jpg
+2026-04-19 14:32:38,661 [INFO] Step 5: Extracting text from page_5_dup2.jpg
+2026-04-19 14:32:41,825 [INFO] Step 5: Extracting text from page_5_dup3.jpg
+2026-04-19 14:32:45,051 [INFO] Step 5: Extracting text from page_5_dup4.jpg
+2026-04-19 14:32:48,071 [INFO] Step 5: Extracting text from page_6.jpg
+2026-04-19 14:32:51,327 [INFO] Step 5: Extracting text from page_7.jpg
+2026-04-19 14:32:53,517 [INFO] Step 5: Extracting text from page_7_dup1.jpg
+2026-04-19 14:32:56,048 [INFO] Step 5: Extracting text from page_7_dup2.jpg
+2026-04-19 14:32:58,707 [INFO] Step 5: Extracting text from page_7_dup3.jpg
+2026-04-19 14:33:01,070 [INFO] Step 5: Extracting text from page_7_dup4.jpg
+2026-04-19 14:33:03,734 [INFO] Step 5: Extracting text from page_8.jpg
+2026-04-19 14:33:05,940 [INFO] Step 5: Extracting text from page_9.jpg
+2026-04-19 14:33:08,024 [INFO] Step 5: Extracting text from page_10.jpg
+2026-04-19 14:33:10,455 [INFO] Step 5: Extracting text from page_11.jpg
+2026-04-19 14:33:12,596 [INFO] Step 5: Extracting text from page_15.jpg
+2026-04-19 14:33:14,841 [INFO] Step 5: Extracting text from page_22.jpg
+2026-04-19 14:33:17,011 [INFO] Step 5: Extracting text from page_23.jpg
+2026-04-19 14:33:19,236 [INFO] Step 5: Extracting text from page_25.jpg
+2026-04-19 14:33:22,897 [INFO] Step 5: Extracting text from page_27.jpg
+2026-04-19 14:33:25,330 [INFO] Step 5: Extracting text from page_27_dup1.jpg
+2026-04-19 14:33:27,616 [INFO] Step 5: Extracting text from page_40.jpg
+2026-04-19 14:33:30,746 [INFO] Step 5: Extracting text from page_70.jpg
+2026-04-19 14:33:32,656 [INFO] Step 5: Extracting text from page_71.jpg
+2026-04-19 14:33:35,416 [INFO] Step 5: Extracting text from page_77.jpg
+2026-04-19 14:33:37,665 [INFO] Step 5: Extracting text from page_101.jpg
+2026-04-19 14:33:39,831 [INFO] Step 5: Extracting text from page_111.jpg
+2026-04-19 14:33:41,842 [INFO] Step 5: Extracting text from IMG_20260419_184335_473_unknown.jpg
+2026-04-19 14:33:44,525 [INFO] Step 5: Extracting text from IMG_20260419_184335_652_unknown.jpg
+2026-04-19 14:33:46,910 [INFO] Step 5: Extracting text from IMG_20260419_184341_395_unknown.jpg
+2026-04-19 14:33:49,990 [INFO] Step 5: Extracting text from IMG_20260419_184341_741_unknown.jpg
+2026-04-19 14:33:52,343 [INFO] Step 5: Extracting text from IMG_20260419_184342_109_unknown.jpg
+2026-04-19 14:33:55,514 [INFO] Step 5: Extracting text from IMG_20260419_184350_856_unknown.jpg
+2026-04-19 14:33:57,843 [INFO] Step 5: Extracting text from IMG_20260419_184356_137_unknown.jpg
+2026-04-19 14:34:00,760 [INFO] Step 5: Extracting text from IMG_20260419_184356_224_unknown.jpg
+2026-04-19 14:34:02,989 [INFO] Step 5: Extracting text from IMG_20260419_184356_506_unknown.jpg
+2026-04-19 14:34:05,859 [INFO] Step 5: Extracting text from IMG_20260419_184400_676_unknown.jpg
+2026-04-19 14:34:08,295 [INFO] Step 5: Extracting text from IMG_20260419_184401_480_unknown.jpg
+2026-04-19 14:34:11,543 [INFO] Step 7: Fixing broken sentences across 61 pages
+2026-04-19 14:34:11,543 [INFO] Step 6: page_1.jpg -> 7 elements detected
+2026-04-19 14:34:11,543 [INFO] Step 6: page_1_dup1.jpg -> 1 elements detected
+2026-04-19 14:34:11,543 [INFO] Step 6: page_1_dup2.jpg -> 4 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_1_dup3.jpg -> 2 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_1_dup4.jpg -> 2 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_1_dup5.jpg -> 6 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_1_dup6.jpg -> 6 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2.jpg -> 2 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2_dup1.jpg -> 3 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2_dup2.jpg -> 1 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2_dup3.jpg -> 4 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2_dup4.jpg -> 1 elements detected
+2026-04-19 14:34:11,544 [INFO] Step 6: page_2_dup5.jpg -> 6 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup6.jpg -> 3 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup7.jpg -> 3 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup8.jpg -> 5 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup9.jpg -> 3 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup10.jpg -> 5 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_2_dup11.jpg -> 5 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_3.jpg -> 6 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_3_dup1.jpg -> 1 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_4.jpg -> 6 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_4_dup1.jpg -> 5 elements detected
+2026-04-19 14:34:11,545 [INFO] Step 6: page_5.jpg -> 2 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_5_dup1.jpg -> 2 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_5_dup2.jpg -> 9 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_5_dup3.jpg -> 1 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_5_dup4.jpg -> 3 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_6.jpg -> 1 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_7.jpg -> 6 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_7_dup1.jpg -> 10 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_7_dup2.jpg -> 4 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_7_dup3.jpg -> 3 elements detected
+2026-04-19 14:34:11,546 [INFO] Step 6: page_7_dup4.jpg -> 1 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_8.jpg -> 3 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_9.jpg -> 7 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_10.jpg -> 2 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_11.jpg -> 9 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_15.jpg -> 5 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_22.jpg -> 3 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_23.jpg -> 5 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_25.jpg -> 7 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_27.jpg -> 1 elements detected
+2026-04-19 14:34:11,547 [INFO] Step 6: page_27_dup1.jpg -> 7 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_40.jpg -> 6 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_70.jpg -> 4 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_71.jpg -> 4 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_77.jpg -> 2 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_101.jpg -> 6 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: page_111.jpg -> 3 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: IMG_20260419_184335_473_unknown.jpg -> 8 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: IMG_20260419_184335_652_unknown.jpg -> 6 elements detected
+2026-04-19 14:34:11,548 [INFO] Step 6: IMG_20260419_184341_395_unknown.jpg -> 1 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184341_741_unknown.jpg -> 3 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184342_109_unknown.jpg -> 3 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184350_856_unknown.jpg -> 4 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184356_137_unknown.jpg -> 6 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184356_224_unknown.jpg -> 2 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184356_506_unknown.jpg -> 2 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184400_676_unknown.jpg -> 1 elements detected
+2026-04-19 14:34:11,549 [INFO] Step 6: IMG_20260419_184401_480_unknown.jpg -> 3 elements detected
+2026-04-19 14:34:11,549 [INFO] Steps 8-9: Generating DOCX...
+2026-04-19 14:34:11,685 [INFO] Step 9: Generated /home/runner/work/five-book/five-book/reconstructed_book.docx (242 elements, 0 uncertain)
+2026-04-19 14:34:11,685 [INFO] ============================================================
+2026-04-19 14:34:11,685 [INFO] QUALITY CONTROL REPORT
+2026-04-19 14:34:11,685 [INFO] ============================================================
+2026-04-19 14:34:11,685 [INFO] Detected page range: 1 - 111
+2026-04-19 14:34:11,685 [WARNING] Missing pages: [12, 13, 14, 16, 17, 18, 19, 20, 21, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110]
+2026-04-19 14:34:11,685 [WARNING] Duplicate page numbers detected: [7, 2, 1, 27, 5, 4, 3]
+2026-04-19 14:34:11,686 [WARNING] 11 images with uncertain page numbers:
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184335_473.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184335_652.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184341_395.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184341_741.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184342_109.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184350_856.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184356_137.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184356_224.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184356_506.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184400_676.jpg
+2026-04-19 14:34:11,686 [WARNING]   IMG_20260419_184401_480.jpg
+2026-04-19 14:34:11,686 [INFO] Detection confidence: high=16, medium=10, low=24, uncertain=11
+2026-04-19 14:34:11,686 [INFO] Total pages processed: 61
+2026-04-19 14:34:11,686 [INFO] ============================================================
+2026-04-19 14:34:11,686 [INFO] Done! Output: /home/runner/work/five-book/five-book/reconstructed_book.docx
