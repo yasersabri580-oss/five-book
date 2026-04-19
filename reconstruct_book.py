@@ -30,6 +30,7 @@ OUTPUT_DOCX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reconstr
 LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "processing_log.txt")
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".webp"}
 MAX_PAGE_NUMBER = 200  # Reasonable upper bound for page numbers
+GARBLE_CHARACTERS = "□■◻◼▪▫●○◆◇★☆"
 
 # Arabic-Indic numeral mapping  ٠١٢٣٤٥٦٧٨٩
 ARABIC_INDIC_MAP = {
@@ -198,12 +199,18 @@ def rename_files(
     for old, new in rename_map.items():
         if old != new:
             tmp = old + ".tmp_rename"
-            shutil.move(old, tmp)
-            temp_map[tmp] = new
+            try:
+                shutil.move(old, tmp)
+                temp_map[tmp] = new
+            except OSError as e:
+                log.error("Failed to rename %s: %s", os.path.basename(old), e)
 
     for tmp, new in temp_map.items():
-        shutil.move(tmp, new)
-        log.info("Renamed: %s -> %s", os.path.basename(tmp).replace(".tmp_rename", ""), os.path.basename(new))
+        try:
+            shutil.move(tmp, new)
+            log.info("Renamed: %s -> %s", os.path.basename(tmp).replace(".tmp_rename", ""), os.path.basename(new))
+        except OSError as e:
+            log.error("Failed to finalize rename %s -> %s: %s", os.path.basename(tmp), os.path.basename(new), e)
 
     return rename_map
 
@@ -527,7 +534,7 @@ def generate_docx(
 
             # Quality control: mark uncertain OCR
             # (text with too many special chars or very short garbled text)
-            garble_ratio = sum(1 for c in text if c in "□■◻◼▪▫●○◆◇★☆") / max(len(text), 1)
+            garble_ratio = sum(1 for c in text if c in GARBLE_CHARACTERS) / max(len(text), 1)
             if garble_ratio > 0.3:
                 text = f"[UNCERTAIN] {text}"
                 uncertain_count += 1
