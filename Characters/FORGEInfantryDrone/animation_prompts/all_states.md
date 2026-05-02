@@ -156,7 +156,7 @@ Final pose: Drone has collapsed forward, face-down (sensor module pressed to gro
 
 Background: Transparent PNG.
 Art style: Semi-realistic painterly sprite, 2px black outline.
-Note: Held final frame. Completely still. Eyes MUST be dark (##1A1A1A) — this is critical for the death read.
+Note: Held final frame. Completely still. Eyes MUST be dark (#1A1A1A) — this is critical for the death read.
 ```
 
 ---

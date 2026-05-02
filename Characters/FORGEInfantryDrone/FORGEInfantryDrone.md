@@ -17,7 +17,7 @@ FORGE Infantry Drones are the foot-soldier equivalent of the FORGE AI faction. T
 ## Visual Identity
 The FORGE Infantry Drone looks like a military robot designed with brutal minimalism — no wasted material, no aesthetics beyond function. It is not humanoid and does not try to be. It is a weapon system that walks.
 
-- **Body:** Squat, forward-leaning chassis. Roughly 1.5m tall. Four-limbed but asymmetric: two lower locomotive legs and two upper weapon/manipulation limbs. The body core is a rounded rectangular torso — slightly wider than it is deep.
+- **Body:** Squat, forward-leaning chassis. Roughly 1.5m tall. Four limbs total: two lower locomotive legs and two upper limbs (weapon arm and claw arm). The upper weapon/manipulation limbs are asymmetric. The body core is a rounded rectangular torso — slightly wider than it is deep.
 - **Legs:** Two jointed reverse-knee legs (digitigrade style) — thick upper joint, thinner lower strut, wide flat foot pad with grip teeth. Designed for stability and terrain navigation, not speed.
 - **Upper limbs:** Right limb ends in an integrated autocannon barrel (fixed, not a manipulator hand). Left limb ends in a three-fingered manipulator claw (used for opening doors, operating terminals — FORGE drones can interact with objects).
 - **Sensor array (head):** No traditional head. A small sensor cluster sits on top of the torso — a horizontal rectangular module with 2 forward-facing sensor "eyes" (glowing cyan, #20D4E0) and a ring of smaller proximity sensors around the module perimeter. The sensor eyes are the defining visual feature — cold, mechanical, unblinking.
